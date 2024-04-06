@@ -1,0 +1,80 @@
+#title {
+    margin: 0;
+}
+
+#subTitle {
+    margin: 0;
+}
+
+.tooltip-text {
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #4F709C;
+}
+
+#app {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background: #F0F0F0;
+    border-radius: 20px;
+}
+
+.scatterplot {
+    background: #F0F0F0;
+
+    border-radius: 20px;
+}
+
+.dot {
+    stroke: black;
+}
+
+.dot:hover {
+    cursor: pointer;
+}
+
+#tooltip {
+    background: #E5D283;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#legend {
+    position: absolute;
+    top: 50;
+    justify-content: end;
+}
+
+.legendDivTop,
+.legendDivBottom {
+    display: flex;
+}
+
+.legendDivTop {
+    justify-content: flex-end;
+}
+
+.withoutDope {
+    height: 16px;
+    width: 16px;
+    margin-left: 10px;
+    background: #4F709C;
+}
+
+.withDope {
+    height: 16px;
+    width: 16px;
+    margin-left: 10px;
+    background: #FC7300;
+}
